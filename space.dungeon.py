@@ -1,0 +1,12 @@
+print('Welcome to Dark Dungeons of Quilam. Create your characters name.')
+print('What is your name?')
+name = input()
+print('Choose your character type')
+character = input()
+print('You are allowed a total of 100 magic and attack points')
+print('How many magic points do you want?')
+magic_points = int(input())
+print('You have ' + str(magic_points) + ' magic points.')
+attack_points = 100 - magic_points
+print('You have ' + str(attack_points) + ' attack points.')
+print('You may now enter the knarly gates '+ name + '.')
